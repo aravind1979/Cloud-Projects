@@ -1,0 +1,17 @@
+name: Test
+on:
+  push:
+    branches: [ main ]
+
+jobs (stages):
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      
+name: Checkout code
+
+    - name: Build Docker image
+      run: docker build -t myapp:latest .
+
+    - name: List Docker images
+      run: docker images
