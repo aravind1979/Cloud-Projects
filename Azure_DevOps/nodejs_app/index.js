@@ -1,1 +1,1 @@
-"console.log('Hello from Node.js');\n" > index.js
+"console.log('Hello from Node.js');\n" > indexs.js
