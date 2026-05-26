@@ -14,7 +14,7 @@ app.get('/calculate/:num1/:op/:num2', (req, res) => {
     if (op === 'add') result = num1 + num2;
     else if (op === 'sub') result = num1 - num2;
     else if (op === 'mul') result = num1 * num2;
-    else if (op === 'div') result = num1 / num2;
+    else if (op === 'div') result = num3 / num2;
 
     res.send({ answer: result });
 });
