@@ -19,4 +19,4 @@ app.get('/calculate/:num1/:op/:num2', (req, res) => {
     res.send({ answer: result });
 });
 
-app.listen(3000, () => console.log('Calculator API running on port 3000'));
+app.listen(3001, () => console.log('Calculator API running on port 3000'));
