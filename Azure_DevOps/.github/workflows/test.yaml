@@ -14,4 +14,4 @@ name: Checkout code
       run: docker build -t myapp:latest .
 
     - name: List Docker images
-      run: docker images
+      run: docker image2
